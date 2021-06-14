@@ -1,0 +1,47 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 200px;
+    margin-top: 80px;
+    justify-content: center;  
+}
+
+.left{
+    width: 500px;
+    padding-right:130px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 3rem;
+    color: var(--dark-blue);
+}
+
+.content{
+    color: var(--dark-grayish-blue);
+}
+
+.right{
+    width: 480px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 40px;
+}
+
+.context {
+    margin-top: 5.5px;
+}
+
+.headings {
+    color: var(--dark-blue);
+}
+
+.paragrahs {
+    color: var(--dark-grayish-blue);
+}
+
+
