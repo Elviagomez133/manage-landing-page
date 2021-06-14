@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 40px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 20px;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    color: var(--dark-blue);
+    margin-top: -10px;
+}
+
+.button {
+    margin-top: -10px;
+}
