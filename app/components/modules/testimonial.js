@@ -9,7 +9,7 @@ export default function Testimonial() {
             <div className={styles.sliders}>
                 <div className={styles.box}>
                     <div className={styles.img}>
-                        <Image src="/images/avatar-anisha.png" alt="anisha li" width={100} height={100}/>
+                        <Image src="/images/avatar-anisha.png" alt="anisha li" width={100} height={100} placeholder="blur"/>
                     </div>
                     <h3 className={styles.top}>Anisha Li</h3>
                     <p className={styles.bottom}>“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>

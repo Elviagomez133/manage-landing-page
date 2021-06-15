@@ -1,5 +1,41 @@
 .container {
     background-color: var(--Very--dark-blue);
     width: 100vw;
-    height: 200px;
+    height: 240px;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
 }
+
+.first {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 60px;
+    column-gap: 140px;
+}
+
+.items {
+    margin-top: -4px;
+    list-style: none;
+    color: white;
+    line-height: 2rem;
+}
+
+.second{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: -140px;
+}
+
+.copy {
+    grid-column: col-start 4 / col-end 5;
+    color: var(--dark-grayish-blue);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+

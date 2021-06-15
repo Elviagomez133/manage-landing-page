@@ -1,20 +1,17 @@
 .container {
-    margin-top: 80px;
     background-color: var(--bright-red);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
     width: 100vw;
     height: 180px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    margin-top: 150px;
     align-items: center;
-    padding: 5px;
-}
-
-.container > * {
-    margin: 250px;
+    column-gap: 880px;
 }
 
 .title {
     color: white;
-    width: 350px;
+    width: 250px;
 }
+
