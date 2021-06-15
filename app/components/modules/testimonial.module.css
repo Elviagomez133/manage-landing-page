@@ -1,0 +1,46 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.sliders {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.box {
+    background-color: var( --Vary-light-gray);
+    text-align: center;
+    width: 550px;
+    height: 320px;
+    padding: 0 40px 0 40px;
+}
+
+.top {
+    color: var(--dark-blue);
+}
+
+.bottom {
+    color: var(--dark-grayish-blue);
+}
+
+.img {
+    margin-top: -40px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+

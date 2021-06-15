@@ -1,0 +1,20 @@
+.container {
+    margin-top: 80px;
+    background-color: var(--bright-red);
+    width: 100vw;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.container > * {
+    margin: 250px;
+}
+
+.title {
+    color: white;
+    width: 350px;
+}
