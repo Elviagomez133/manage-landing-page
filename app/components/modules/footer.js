@@ -1,5 +1,5 @@
 import styles from '../modules/footer.module.css';
-import Logo from "../../../public/images/logo.svg";
+import Logo from "../../../public/images/logo-white.svg";
 import Form from "../elements/form";
 import Facebook from "../../../public/images/icon-facebook.svg";
 import Youtube from "../../../public/images/icon-youtube.svg";
@@ -28,11 +28,21 @@ export default function Footer() {
             </div>
             <div className={styles.second}>
                 <div className={styles.icons}>
-                    <Facebook />
-                    <Youtube />
-                    <Twitter />
-                    <Pinterest />
-                    <Instagram />
+                    <div>
+                        <Facebook />
+                    </div>
+                    <div>
+                        <Youtube />
+                    </div>
+                    <div>
+                        <Twitter />
+                    </div>
+                    <div>
+                        <Pinterest />
+                    </div>
+                    <div>
+                        <Instagram />
+                    </div>
                 </div>
                 <p className={styles.copy}>Copyright 2020. All Rights Reserved</p>
             </div>

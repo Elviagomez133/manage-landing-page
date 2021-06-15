@@ -4,13 +4,16 @@ import Main from "../modules/main";
 import Testimonial from "../modules/testimonial.js";
 import Section from "../modules/section";
 import Footer from "../modules/footer";
+import styles from "../layouts/default.module.css";
 
 
 export default function Default () {
     return(
         <div>
-           <Navbar /> 
-           <Header />
+           <div className={styles.container}>
+            <Navbar /> 
+            <Header />
+           </div>
            <Main />
            <Testimonial />
            <Section />

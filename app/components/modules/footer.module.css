@@ -31,6 +31,11 @@
     margin-top: -140px;
 }
 
+.icons {
+    display: grid;
+    grid-template-columns: repeat(5, 30px);
+}
+
 .copy {
     grid-column: col-start 4 / col-end 5;
     color: var(--dark-grayish-blue);
