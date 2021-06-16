@@ -8,6 +8,11 @@
     margin-top: 150px;
     align-items: center;
     column-gap: 880px;
+    background-image: url("/images/bg-tablet-pattern -color.svg");
+    background-size: 40rem;
+    background-position: bottom 5rem right 10rem;
+    background-repeat: space;
+
 }
 
 .title {

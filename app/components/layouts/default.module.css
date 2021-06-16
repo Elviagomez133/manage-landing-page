@@ -1,3 +1,14 @@
 .container {
-    background: url("/images/bg-tablet-pattern.svg") no-repeat;
+    background: url("/images/bg-tablet-pattern.svg");
+    background-position: top -18rem right -3.2rem;
+    background-repeat: no-repeat;
+    background-size: 58rem;
 }
+
+.section {
+    background: url("/images/bg-tablet-pattern.svg");
+    background-position: left -20rem bottom 6rem;
+    background-repeat: no-repeat;
+    background-size: 48rem;
+}
+

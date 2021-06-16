@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2, auto);
     grid-gap: 200px;
     margin-top: 80px;
-    justify-content: center;  
+    justify-content: center;
 }
 
 .left{

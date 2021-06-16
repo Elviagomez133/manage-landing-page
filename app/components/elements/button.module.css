@@ -10,5 +10,10 @@
     border-radius: 40px;
     width: 120px;
     cursor: pointer;
-    box-shadow: rgb(242, 95, 58) 0px 20px 30px -10px;
+    box-shadow: rgba(242, 95, 58, .8) 0px 20px 20px -10px;
 }
+
+.button:hover {
+    opacity: 0.7;
+}
+

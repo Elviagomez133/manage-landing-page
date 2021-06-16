@@ -34,6 +34,7 @@
 .icons {
     display: grid;
     grid-template-columns: repeat(5, 30px);
+    cursor: pointer;
 }
 
 .copy {
@@ -41,6 +42,11 @@
     color: var(--dark-grayish-blue);
     font-size: 10px;
     font-weight: 400;
+}
+
+.navitems:hover {
+    color: var(--bright-red);
+    cursor: pointer;
 }
 
 

@@ -3,9 +3,9 @@
     grid-template-columns: repeat(4, auto);
     grid-gap: 180px;
     justify-content: center;
-    margin-top: 80px;
     margin-left: 192px;
     margin-right: 85px;
+    padding-top: 100px;
 } 
 
 .items {
@@ -19,6 +19,10 @@
     color: var(--dark-blue);
     margin-top: -10px;
     cursor: pointer;
+}
+
+.navitems:hover {
+    color: var(--dark-grayish-blue);
 }
 
 .button {

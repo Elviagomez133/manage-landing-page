@@ -11,11 +11,13 @@ export default function Default () {
     return(
         <div>
            <div className={styles.container}>
-            <Navbar /> 
-            <Header />
+                <Navbar /> 
+                <Header />
            </div>
-           <Main />
-           <Testimonial />
+           <div className={styles.section}>
+            <Main />
+            <Testimonial />
+           </div>
            <Section />
            <Footer />
         </div>
